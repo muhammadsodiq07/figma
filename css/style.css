@@ -7,9 +7,363 @@
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-left: 330px;
+  padding-top: 180px;
 }
 
+.left-section {
+  width: 300px;
+  height: 100vh;
+  border-right: 1px solid rgb(179, 179, 179);
+  position: fixed;
+  width: 300px;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+.resnt {
+  padding-top: 20px;
+  padding-left: 15px;
+  position: relative;
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.time {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-size: 18px;
+}
+
+.bx-time {
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.bx-file-blank {
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.file {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.plus {
+  position: absolute;
+  top: 58px;
+  right: 20px;
+  font-size: 30px;
+  color: rgb(146, 146, 146);
+  border: transparent;
+}
+
+.plus:hover {
+  border: transparent;
+  background-color: rgb(204, 204, 204);
+}
+
+.globs {
+  padding-left: 10px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(179, 179, 179);
+  padding-bottom: 30px;
+}
+
+.bx-globe {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.comm {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(80, 80, 80)
+}
+
+.beta-div {
+  position: relative;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 4px;
+  color: #fff;
+  border: transparent;
+  background-color: rgba(79, 214, 79, 0.774);
+  transition: all 1s ease;
+
+}
+
+.btn:hover {
+  background-color: rgb(128, 128, 250);
+  color: #000;
+}
+
+.bx-right-arrow-alt {
+  color: rgb(146, 146, 146);
+  position: absolute;
+  top: 2px;
+  left: 100px;
+  font-size: 26px;
+  transition: all 0.5s ease;
+}
+
+.bx-right-arrow-alt:hover {
+  left: 110px;
+}
+
+.top {
+  padding-top: 28px;
+  padding-left: 10px;
+}
+
+.bx-arrow-from-bottom {
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.plan-p {
+  width: 230px;
+  font-size: 18px;
+  color: rgb(80, 80, 80);
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-left: 50px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.button:hover {
+  color: rgb(8, 255, 255);
+  border: 1px solid rgba(120, 204, 204, 0.658);
+}
+
+.top {
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.star {
+  padding-left: 10px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.oposity {
+  margin-bottom: 35px;
+}
+
+.op-p {
+  width: 230px;
+  font-size: 18px;
+  opacity: 0.3;
+}
+
+.bx-star {
+  font-size: 28px;
+  margin-right: 20px;
+  opacity: 0.3;
+}
+
+.great {
+  padding-top: 20px;
+  padding-left: 16px;
+}
+
+.team {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  font-size: 30px;
+  margin-right: 22px;
+}
+
+.plus-new {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+
+.new {
+  transition: all 0.5s ease;
+}
+
+.new:hover {
+  background-color: rgb(206, 205, 205);
+}
+
+.main-section {
+  background-color: #fff;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  width: 1025px;
+}
+
+.vied {
+  padding-top: 20px;
+  color: rgb(95, 95, 95);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.title-h3 {
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.new-figma {
+  padding-top: 30px;
+}
+
+.list-item {
+  width: 300px;
+  height: 80px;
+  background-color: #fff;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  position: relative;
+  transition: all 0.5s ease;
+  list-style-type: none;
+}
+
+.bxs-file-image {
+  font-size: 28px;
+  color: rgb(66, 66, 241);
+  margin-right: 20px;
+}
+
+.target {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.figma-title {
+  color: rgb(59, 59, 59);
+}
+
+.figma-text {
+  color: grey;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.span-plus {
+  position: absolute;
+  right: 10px;
+  font-size: 26px;
+  color: rgb(105, 105, 105);
+}
+
+.list-item:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.box {
+  margin-top: 35px;
+  width: 1018px;
+  height: 330px;
+  background-color: rgba(226, 226, 226, 0.527);
+  border-radius: 5px;
+  border: 1px solid rgb(197, 197, 197);
+}
+
+.name {
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.name-div {
+  padding-top: 35px;
+}
+
+.see {
+  position: relative;
+  font-weight: 400;
+  color: rgb(92, 92, 252);
+  border-right: 1px solid grey;
+  padding-right: 10px;
+}
+
+.see-x {
+  margin-right: 30px;
+}
+
+.bx-x {
+  padding-left: 5px;
+  font-size: 26px;
+  color: rgb(73, 73, 73);
+}
+
+
+.imgs {
+  margin-top: 35px;
+  padding-left: 30px;
+}
+
+.img-name {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.last {
+  padding-top: 35px;
+}
+
+.last-name {
+  font-weight: 400;
+}
+
+.bxs-arrow-to-bottom {
+  margin-left: 5px;
+}
+
+.bx-border-all {
+  font-size: 26px;
+  color: rgb(94, 94, 247);
+  margin-right: 10px;
+}
+
+.bx-menu {
+  font-size: 26px;
+}
+
+.border {
+  margin-right: 20px;
+}
+
+.pic-main {
+  margin-top: 30px;
+}
+
+.bx-question-mark {
+  font-size: 35px;
+  color: #fff;
+  background-color: #000;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  transition: all 0.5s ease;
+  border-radius: 50%;
+}
+.booton {
+  margin-bottom: 50px;
+}
+
+.bx-question-mark:hover {
+  background-color: #0000ff;
+  border-radius: 10px;
+}
