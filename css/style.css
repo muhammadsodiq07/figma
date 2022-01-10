@@ -267,11 +267,6 @@ body {
   font-size: 26px;
   color: rgb(105, 105, 105);
 }
-
-.list-item:hover {
-  background-color: rgb(231, 231, 231);
-}
-
 .box {
   margin-top: 35px;
   width: 1018px;
@@ -291,7 +286,6 @@ body {
 }
 
 .see {
-  position: relative;
   font-weight: 400;
   color: rgb(92, 92, 252);
   border-right: 1px solid grey;
